@@ -1,0 +1,49 @@
+#Services {
+  width: 98.75vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: linear-gradient(180deg, #fff, #003f5c);
+  #VideoEditing {
+    width: 33%;
+  }
+  #AudioMastery {
+    width: 33%;
+  }
+  #VoiceOvers {
+    width: 33%;
+  }
+  div {
+    ul {
+      margin: 0px;
+      padding: 0px;
+      li {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        font-size: 25px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      #listHeading {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        color: #5b758b;
+        transition: 500ms;
+      }
+      #listHeading:hover {
+        transform: scale(1.2);
+        color: #003f5c;
+      }
+      #hovernClick {
+        position: relative;
+        top: 20px;
+        margin-top: 15px;
+        // font-size: 25px;
+        // display: none;
+      }
+    }
+  }
+}
